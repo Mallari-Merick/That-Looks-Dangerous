@@ -1,0 +1,6 @@
+#Build Output
+bin/
+obj/
+
+#Build and tooling caches
+*.cache
