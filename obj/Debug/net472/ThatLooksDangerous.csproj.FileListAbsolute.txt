@@ -1,9 +1,0 @@
-D:\PC\Merick\Coding\Modding Hobby\Rimworld Harmony\That Looks Dangerous\Source\ThatLooksDangerous\bin\Debug\net472\ThatLooksDangerous.dll
-D:\PC\Merick\Coding\Modding Hobby\Rimworld Harmony\That Looks Dangerous\Source\ThatLooksDangerous\bin\Debug\net472\ThatLooksDangerous.pdb
-D:\PC\Merick\Coding\Modding Hobby\Rimworld Harmony\That Looks Dangerous\Source\ThatLooksDangerous\obj\Debug\net472\ThatLooksDangerous.csproj.AssemblyReference.cache
-D:\PC\Merick\Coding\Modding Hobby\Rimworld Harmony\That Looks Dangerous\Source\ThatLooksDangerous\obj\Debug\net472\ThatLooksDangerous.GeneratedMSBuildEditorConfig.editorconfig
-D:\PC\Merick\Coding\Modding Hobby\Rimworld Harmony\That Looks Dangerous\Source\ThatLooksDangerous\obj\Debug\net472\ThatLooksDangerous.AssemblyInfoInputs.cache
-D:\PC\Merick\Coding\Modding Hobby\Rimworld Harmony\That Looks Dangerous\Source\ThatLooksDangerous\obj\Debug\net472\ThatLooksDangerous.AssemblyInfo.cs
-D:\PC\Merick\Coding\Modding Hobby\Rimworld Harmony\That Looks Dangerous\Source\ThatLooksDangerous\obj\Debug\net472\ThatLooksDangerous.csproj.CoreCompileInputs.cache
-D:\PC\Merick\Coding\Modding Hobby\Rimworld Harmony\That Looks Dangerous\Source\ThatLooksDangerous\obj\Debug\net472\ThatLooksDangerous.dll
-D:\PC\Merick\Coding\Modding Hobby\Rimworld Harmony\That Looks Dangerous\Source\ThatLooksDangerous\obj\Debug\net472\ThatLooksDangerous.pdb

@@ -11,9 +11,11 @@ namespace ThatLooksDangerous
         static void Postfix(Verb __instance, bool __result, LocalTargetInfo castTarg)
         {
             Pawn targetPawn = castTarg.Pawn;
+            Log.Message("[ThatLooksDangerous] Log Check 1");
             if(targetPawn == null || !targetPawn.IsColonist)
                 return;
 
+            Log.Message("[ThatLooksDangerous] Log Check 2");
             float weaponRange = __instance.verbProps.range;
             bool isWeaponExplosive = __instance.verbProps.CausesExplosion;
 
