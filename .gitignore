@@ -1,6 +1,7 @@
 #Build Output
-bin/
-obj/
+/bin
+/obj
 
 #Build and tooling caches
 *.cache
+
