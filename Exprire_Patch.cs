@@ -8,7 +8,7 @@ namespace ThatLooksDangerous
     {
         public static void Postfix()
         {
-            Log.Message("[ThatLooksDangerous] Expire Postfix Success!");
+            // Log.Message("[ThatLooksDangerous] Expire Postfix Success!");
         }
     }
 }

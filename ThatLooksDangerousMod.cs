@@ -9,7 +9,7 @@ namespace ThatLooksDangerous
         {
             var harmony = new Harmony("mercs.thatlooksdangerous");
             harmony.PatchAll();
-            Log.Message("[ThatLooksDangerous] Constructor running!");
+            Log.Message("[ThatLooksDangerous] Constructor running! Sept. 14");
         }
     }
     
