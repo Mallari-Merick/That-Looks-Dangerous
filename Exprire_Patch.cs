@@ -6,9 +6,9 @@ namespace ThatLooksDangerous
     [HarmonyPatch(typeof(Stance_Warmup), "Expire")]
     public static class Expire_Patch
     {
-        public static void Postfix()
+        public static void Postfix(Stance_Warmup __instance)
         {
-            // Log.Message("[ThatLooksDangerous] Expire Postfix Success!");
+            DangerUtility.CleanupLaser(__instance);
         }
     }
 }

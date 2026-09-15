@@ -1,13 +1,15 @@
 using System.Collections.Generic;
 using RimWorld;
 using Verse;
-using Verse.Sound;
+// using Verse.Sound;
 namespace ThatLooksDangerous
 {
     public static class DangerUtility
     {
         static float maxWeaponRangeThreat = 40f;
-        public static readonly Dictionary<Stance_Warmup, Sustainer> soundFX = new Dictionary<Stance_Warmup, Sustainer>();
+        // public static readonly Dictionary<Stance_Warmup, Sustainer> soundFX = new Dictionary<Stance_Warmup, Sustainer>();
+        // Commented out, because this is required for a sustainer function.
+        public static readonly Dictionary<Stance_Warmup, MoteDualAttached> laserFX = new Dictionary<Stance_Warmup, MoteDualAttached>();
 
         public static bool IsDangerousStance(Stance_Warmup stance)
         {
@@ -29,6 +31,13 @@ namespace ThatLooksDangerous
                 }
             }
             return false;
+        }
+        public static void CleanupLaser(Stance_Warmup stance)
+        {
+            if(!laserFX.TryGetValue(stance, out MoteDualAttached mote))
+                return;
+            mote.Destroy(DestroyMode.Vanish);
+            laserFX.Remove(stance);
         }
     }
 }
